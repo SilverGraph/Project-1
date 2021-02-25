@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="first-table" style="height: 250px; width: 70%; border: 1px solid blue; margin: 30px; border-radius: 10px; padding: 0 20px;">
+        <div class="heading" style="width: 400px; height: 30px; background-color :#1a508b; position: relative;
+        bottom: 20px;
+        margin: 0 auto; color: white; text-align: center; line-height: 1.5; font-size: 1.2rem; font-weight: bold; font-family: 'Montserrat', sans-serif;">
+            State Statistics
+        </div>
+
+        <table style="width: 100%;">
+            <tr>
+                <td>
+                    <table class="table table-borderless">
+                        <tr>
+                            <td>No. of Districts</td>
+                            <td style="color: #23689b;">: 30</td>
+                        </tr>
+                        <tr>
+                            <td>No. of Tahasil</td>
+                            <td style="color: #23689b;">: 317</td>
+                        </tr>
+                        <tr>
+                            <td>No. of RI Circles</td>
+                            <td style="color: #23689b;">: 2410</td>
+                        </tr>
+                        <tr>
+                            <td>No. of Villages</td>
+                            <td style="color: #23689b;">: 51701</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table table-borderless" style="margin-top: 0">
+                        <tr>
+                            <td>No. of Districts</td>
+                            <td style="color: #23689b;">: 17097553</td>
+                        </tr>
+                        <tr>
+                            <td>No. of Tahasil</td>
+                            <td style="color: #23689b;">: 57056678</td>
+                        </tr>
+                        <tr>
+                            <td>No. of RI Circles</td>
+                            <td style="color: #23689b;">: 35808689</td>
+                        </tr>
+                        <tr>
+                            <td><p></p></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="search-bar" style="width: 300px; height: 50px; border: 1px solid blue; border-radius: 10px; position: absolute; right: 20px; top: 30px; padding: 10px;">
+    <!-- The form -->
+<form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit" style="float: right;
+  width: 40px;
+  height: 40px;
+  padding: 10px auto;
+  background: #2196F3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;"><i class="fa fa-search"></i></button>
+  </form>
+    </div>
+
+    <div class="login-link" style="width: 300px; height: 50px; background-color: #1a508b; position: absolute; right: 20px; top: 90px; border-radius: 10px; text-align: center;">
+        <p> <a href="" style="line-height: 2.5; color: white;">Department User Login</a> </p>
+    </div>
+
+    <div class="info-section" style="width: 300px; height: 420px; border: 1px solid #161d6f; position: absolute; right: 20px; top: 150px; border-radius: 10px; text-align: center; padding: 10px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam unde, ullam dolorum accusantium odio distinctio quasi optio, vitae nam excepturi porro a non nemo placeat cumque nostrum labore dicta animi.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime esse enim cum quia distinctio voluptatibus, consectetur maiores, minima dicta qui natus officiis facere, odit modi quae in laudantium impedit. At ab quisquam adipisci magni, libero natus et amet accusantium tempora.</p>
+    </div>
+
+    <div class="second-table" style="height: 250px; width: 70%; border: 1px solid blue; margin: 30px; border-radius: 10px; padding: 0 20px;">
+        <div class="heading" style="width: 400px; height: 30px; background-color :#1a508b; position: relative;
+        bottom: 20px;
+        margin: 0 auto; color: white; text-align: center; line-height: 1.5; font-size: 1.2rem; font-weight: bold; font-family: 'Montserrat', sans-serif;">
+            Select Location for RoR
+        </div>
+
+        <div style="padding: 10px 40px; width: 50%;">
+        <label for="cars">District:</label>
+            <select id="cars" name="cars" style="width: 250px; margin: 5px 19px; height: 40px;">
+                <option value="volvo">Select District</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+
+            <label for="cars">Tahasil:</label>
+            <select id="cars" name="cars" style="width: 250px; margin: 5px 21px; height: 40px;">
+                <option value="volvo">Select Tahasil</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+
+            <label for="cars">Village:</label>
+            <select id="cars" name="cars" style="width: 250px; margin: 5px 20px; height: 40px;">
+                <option value="volvo">Select Village</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+
+            <label for="cars">RI Circle:</label>
+            <select id="cars" name="cars" style="width: 250px; margin: 5px 10px; height: 40px;">
+                <option value="volvo">Select RI Circle</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            
+            <div style="width: 500px; height: 50px; position: absolute; left: 580px; top: 350px">
+                <table class="table table-borderless">
+                    <tr>
+                        <td><input type="radio" name="khatiyan" id="">Khatiyan</td>
+                        <td><input type="radio" name="plot" id="">Plot</td>
+                        <td><input type="radio" name="tenant" id="">Tenant</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        
+    </div>
+
+</body>
+</html>
